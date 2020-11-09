@@ -1,0 +1,1057 @@
+@media screen and (min-width: 1920px) {
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 45px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-410px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    color: #ffd324;
+    font-weight: 300;
+    font-size: 70px;
+    font-family:Segoe UI;  /*normalde "Berlin sans FB" */
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .word .name{
+  font-size: 80px;
+  font-family:Segoe UI;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 80px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+  @keyframes glow_surname {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202, 0 0 60px #ce0202, 0 0 70px #ce0202;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff0202, 0 0 40px #ff0202, 0 0 50px #ff0202, 0 0 60px #ff0202, 0 0 70px #ff0202, 0 0 80px #ff0202;
+    }
+  }
+
+  @keyframes glow_button {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ce0202, 0 0 20px #ce0202, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202;
+    }
+    
+    to {
+      box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+    }
+  }
+
+
+
+  @keyframes glow_name {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dbdb, 0 0 40px #00dbdb, 0 0 50px #00dbdb, 0 0 60px #00dbdb, 0 0 70px #00dbdb;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+    }
+}
+
+.wrapper .sente p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 43px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-410px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    font-weight: 300;
+    font-size: 70px;
+    font-family:Segoe UI;  /*normalde "Berlin sans FB" */
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .word .name{
+  font-size: 80px;
+  font-family:Segoe UI;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 80px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+  @keyframes glow_surname {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #ce0202, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202, 0 0 60px #ce0202, 0 0 70px #ce0202;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff0202, 0 0 40px #ff0202, 0 0 50px #ff0202, 0 0 60px #ff0202, 0 0 70px #ff0202, 0 0 80px #ff0202;
+    }
+  }
+
+  @keyframes glow_button {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+    }
+    /*
+    to {
+      box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+    }*/
+  }
+
+
+
+  @keyframes glow_name {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dbdb, 0 0 40px #00dbdb, 0 0 50px #00dbdb, 0 0 60px #00dbdb, 0 0 70px #00dbdb;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+    }
+}
+
+
+
+
+.wrapper .sente p{
+    color: #ffffff;
+    font-size: 20px;
+    
+    font-family: Century Gothic;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 43px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-410px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    color: #ffd324;
+    font-weight: 300;
+    font-size: 70px;
+    font-family:Segoe UI;  /*normalde "Berlin sans FB" */
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .word .name{
+  font-size: 80px;
+  font-family:Segoe UI;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 80px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+    @keyframes glow_surname {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ce0202, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202, 0 0 60px #ce0202, 0 0 70px #ce0202;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0202, 0 0 40px #ff0202, 0 0 50px #ff0202, 0 0 60px #ff0202, 0 0 70px #ff0202, 0 0 80px #ff0202;
+      }
+    }
+  
+    @keyframes glow_button {
+      from {
+        box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+      }
+      /*
+      to {
+        box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+      }*/
+    }
+  
+  
+  
+    @keyframes glow_name {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dbdb, 0 0 40px #00dbdb, 0 0 50px #00dbdb, 0 0 60px #00dbdb, 0 0 70px #00dbdb;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+      }
+  }
+  
+  
+  
+  
+  .wrapper .sente p{
+      color: #ffffff;
+      font-size: 20px;
+      
+      font-family: Century Gothic;
+      font-style: italic;
+      text-align: center;
+      position: relative;
+      top: -40px;
+  }
+}
+
+
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 43px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-410px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    color: #ffd324;
+    font-weight: 300;
+    font-size: 70px;
+    font-family:Segoe UI;  /*normalde "Berlin sans FB" */
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .word .name{
+  font-size: 80px;
+  font-family:Segoe UI;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 80px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+    @keyframes glow_surname {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ce0202, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202, 0 0 60px #ce0202, 0 0 70px #ce0202;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0202, 0 0 40px #ff0202, 0 0 50px #ff0202, 0 0 60px #ff0202, 0 0 70px #ff0202, 0 0 80px #ff0202;
+      }
+    }
+  
+    @keyframes glow_button {
+      from {
+        box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+      }
+      /*
+      to {
+        box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+      }*/
+    }
+  
+  
+  
+    @keyframes glow_name {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dbdb, 0 0 40px #00dbdb, 0 0 50px #00dbdb, 0 0 60px #00dbdb, 0 0 70px #00dbdb;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+      }
+  }
+  
+  
+  
+  
+  .wrapper .sente p{
+      color: #ffffff;
+      font-size: 20px;
+      
+      font-family: Century Gothic;
+      font-style: italic;
+      text-align: center;
+      position: relative;
+      top: -40px;
+  }
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 43px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-410px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    color: #ffd324;
+    font-weight: 300;
+    font-size: 70px;
+    font-family:Segoe UI;  /*normalde "Berlin sans FB" */
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .word .name{
+  font-size: 80px;
+  font-family:Segoe UI;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 80px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+    @keyframes glow_surname {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ce0202, 0 0 30px #ce0202, 0 0 40px #ce0202, 0 0 50px #ce0202, 0 0 60px #ce0202, 0 0 70px #ce0202;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff0202, 0 0 40px #ff0202, 0 0 50px #ff0202, 0 0 60px #ff0202, 0 0 70px #ff0202, 0 0 80px #ff0202;
+      }
+    }
+  
+    @keyframes glow_button {
+      from {
+        box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+      }
+      /*
+      to {
+        box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+      }*/
+    }
+  
+  
+  
+    @keyframes glow_name {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dbdb, 0 0 40px #00dbdb, 0 0 50px #00dbdb, 0 0 60px #00dbdb, 0 0 70px #00dbdb;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+      }
+  }
+  
+  
+  
+  
+  .wrapper .sente p{
+      color: #ffffff;
+      font-size: 20px;
+      
+      font-family: Century Gothic;
+      font-style: italic;
+      text-align: center;
+      position: relative;
+      top: -40px;
+  }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  
+  .wrapper .btn{
+    margin: auto;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 43px;
+    text-align:center;
+    line-height:45px;
+    position: relative;
+    overflow: hidden;
+    bottom:-340px;
+    -webkit-animation: glow_button 1s ease-in-out infinite alternate;
+    -moz-animation: glow_button 1s ease-in-out infinite alternate;
+    animation: glow_button 1s ease-in-out infinite alternate;
+  }
+  
+  .wrapper .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 1px;             /*normalde 5px*/
+    display: block;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Century Gothic;    /*sonradan ekledim*/
+  }
+  
+  .wrapper .btn a:hover{
+    color: #000000;
+  }
+  
+  .wrapper .btn.btn_1:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform: skewY(10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_1:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_1:hover:after{
+    top: 20px;
+  }
+  /*
+  .wrapper .btn.btn_2:before{
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd324;
+    transform: skewY(-10deg);
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .btn.btn_2:hover:before{
+    top: -20px;
+  }
+  .wrapper .btn.btn_2:hover:after{
+    top: 20px;
+  }
+*/  
+
+
+
+  .wrapper .word{
+    margin: auto;
+    width: 300px;
+    bottom: -50px;
+    font-weight: 300;
+    letter-spacing:3px;
+    text-align:center ;
+    position:relative;    
+  }
+
+  .wrapper .sente{
+    margin: auto;
+    width: 300px;
+    bottom: -130px;
+    text-align: center;
+    position: relative;
+  }
+
+
+  .wrapper .sente p{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Century Gothic;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: -32px;
+  }
+
+  .wrapper .word .name{
+  font-size: 60px;
+  font-family:Segoe UI;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow_name 1s ease-in-out infinite alternate;
+  -moz-animation: glow_name 1s ease-in-out infinite alternate;
+  animation: glow_name 1s ease-in-out infinite alternate;
+  }
+
+  .wrapper .word .surname{
+    font-size: 60px;
+    font-family:Segoe UI;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow_surname 1s ease-in-out infinite alternate;
+    -moz-animation: glow_surname 1s ease-in-out infinite alternate;
+    animation: glow_surname 1s ease-in-out infinite alternate;
+    }
+ 
+  @keyframes glow_surname {
+    from {
+      text-shadow: 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff;
+    }
+    
+    to {
+      text-shadow: 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff, 0 0 50px #af02ff;
+    }
+  }
+
+  @keyframes glow_button {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+    }
+    /*
+    to {
+      box-shadow: 0 0 10px #fff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff;
+    }*/
+  }
+
+
+
+  @keyframes glow_name {
+    from {
+      text-shadow: 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff;
+    }
+    
+    to {
+      text-shadow: 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff, 0 0 50px #00c3ff;
+    }
+}
+}
+

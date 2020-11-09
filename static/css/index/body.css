@@ -1,0 +1,95 @@
+/*body{
+    background-color: rgb(12, 160, 86);
+
+}
+
+.container h2 {
+    text-align: center;
+    
+}
+
+#frt {
+    border:1px solid antiquewhite;
+    background-color: rgb(255, 15, 127);
+    max-width: 80;
+    padding-left: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 90px;
+
+}*/
+
+/*
+body{
+    background-color:rgb(18, 10, 41);  eskiden rgb(45,25,100) idi.rgb(83, 47, 182)   
+}
+*/
+
+@media screen and (min-width: 1920px) {
+    body{
+        background-image: url(/static/img/newback8.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    body{
+    background-image: url(/static/img/newback8.jpg);
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+    body{
+        background-image: url(/static/img/newback8.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }  
+}
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+    body{
+        background-image: url(/static/img/newback8.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+    body{
+        background-image: url(/static/img/newback8.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    *{
+        margin:0;
+      }
+    
+    
+    body{
+        background-image: url(/static/img/newmobback15.jpg);  /* mobile için resimi soldan biraz kırp ve uzunluğunu baya bi arttır. Sonra cover la*/
+        background-position: top;
+        background-repeat: no-repeat;
+        position: relative;
+        
+        
+      }
+}
